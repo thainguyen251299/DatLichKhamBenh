@@ -1,0 +1,23 @@
+npx sequelize-cli db:migrate
+npm install --save bcryptjs@2.4.3
+
+MVC trong node.js
+
+nodejs là xử lý bất đồng bộ, có nghĩa là chạy song song
+vd: code1
+    code2
+    code3
+dùng Promise( async(resolve(chấp nhận: chạy),reject(từ chối: lỗi))) để chạy đúng thứ tự nếu function 
+async, await báo cho js biết chương trình chạy bất đồng bộ
+//route : đường link web
+đọc link trang web
+là người dẫn đường giúp app làm gì tiếp theo
+
+//crud
+create, read, update, delete
+
+//Controller: điều hướng lấy dữ liệu và trả dữ liệu
+
+//services: kết nối db, lấy dữ liệu từ db lên 
+
+npm install --save-dev @babel/core@7.12.10 @babel/preset-env@7.12.10 @babel/node@7.12.10 nodemon@2.0.7
